@@ -7,7 +7,9 @@ Stable tag: No tag
 Tested up to: 3.8.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*******************************************************
+
+Change font of Wordpress admin  and Wordpress editors.
+
 == Description ==
 Change Wordpress fonts to Parsi Fonts
 *******************************************************
