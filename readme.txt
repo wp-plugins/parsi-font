@@ -20,7 +20,7 @@ Change Wordpress fonts to Parsi Fonts
 
 = Support Forum =
 http://forum.wp-parsi.com/
-
+***********************************************
 == Installation ==
 1. Upload 'parsi-font' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
