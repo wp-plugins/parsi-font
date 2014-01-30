@@ -1,5 +1,6 @@
 === Parsi Font ===
 Contributors: Ghaem
+Contributors URI: http://forum.wp-parsi.com/
 Donate link: http://forum.wp-parsi.com/
 Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Requires at least: 3.7
