@@ -11,6 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Change font of Wordpress admin  and Wordpress editors.
 
 == Description ==
+Change Wordpress fonts to Parsi Fonts
 
 = Tested on =
 * PC Chrome
@@ -19,7 +20,7 @@ Change font of Wordpress admin  and Wordpress editors.
 
 = Support Forum =
 http://forum.wp-parsi.com/
-***********************************************
+
 == Installation ==
 1. Upload 'parsi-font' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
