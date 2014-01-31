@@ -1,5 +1,5 @@
 === Parsi Font ===
-Contributors: Ghaem
+Contributors: Ghaem Omidi
 Donate link: http://forum.wp-parsi.com/
 Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Requires at least: 3.7
@@ -12,6 +12,15 @@ Change font of Wordpress admin  and Wordpress editors.
 
 == Description ==
 Change Wordpress fonts to Parsi Fonts
+
+= List of some features: =
+* Settings Page
+* Size Low
+* The ability to choose the font size
+* Select a font from the available fonts in plugin
+* Change fonts of Wordpress admin and Wordpress editors
+* The user can enter the name of own favorite fonts.
+* Preview of the selected font and font size
 
 = Tested on =
 * PC Chrome
@@ -30,8 +39,8 @@ http://forum.wp-parsi.com/
 
 == Frequently Asked Questions ==
 = Q. I have a question =
-A. How to use this plugin? = 
-To use this plugin you should only install plugin and select your custom fonts in settings page.
+= A. How to use this plugin? = 
+= To use this plugin you should only install plugin and select your custom fonts in settings page. =
 
 == Screenshots ==
 1. Settings Page in Wordpress
