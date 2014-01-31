@@ -38,9 +38,8 @@ http://forum.wp-parsi.com/
 5. Install plugin, activate it and enjoy of plugin 
 
 == Frequently Asked Questions ==
-= Q. I have a question =
-= A. How to use this plugin? = 
-= To use this plugin you should only install plugin and select your custom fonts in settings page. =
+= Q. How to use this plugin? = 
+= A. To use this plugin you should only install plugin and select your custom fonts in settings page. =
 
 == Screenshots ==
 1. Settings Page in Wordpress
