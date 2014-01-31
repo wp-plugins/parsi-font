@@ -33,7 +33,7 @@ http://forum.wp-parsi.com/
 A. How to use this plugin? = 
 To use this plugin you should only install plugin and select your custom fonts in settings page.
 
-== Screenshots ==
+= = Screenshots = =
 1. Settings Page in Wordpress
 2. Wordpress admin with ((B Koodak, Comic Sans MS)) fonts
 
