@@ -2,7 +2,7 @@
 Contributors: Ghaem Omidi
 Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Requires at least: 3.7
-Stable tag: No tag
+Stable tag: 2.0
 Tested up to: 3.8.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
