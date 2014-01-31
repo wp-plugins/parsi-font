@@ -3,10 +3,10 @@
 Plugin Name: Parsi Font
 Plugin URI: http://www.forum.wp-parsi.com/
 Description: Change fonts of wordpress.
-Author: Ghaem
-Author URI: http://forum.wp-parsi.com
+Author: Ghaem Omidi
 Version: 1.0
 Tags: admin, admin font, html editor, visual editor, fonts, font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
+Author URI: http://forum.wp-parsi.com
 Copyright: Ghaem Omidi(WP-Parsi)
 License: GPL
 
@@ -24,43 +24,43 @@ function my_admin_head() {
   global $current_user;
     get_currentuserinfo();
 
-	$afe_font_size = get_user_meta($current_user->ID, 'afe-font-size', true); 
-	$afe_font_family = get_user_meta($current_user->ID, 'afe-font-family', true); 
+	$parsifont_font_size = get_user_meta($current_user->ID, 'parsifont-font-size', true); 
+	$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true); 
 	
-	if ($afe_font_family || $afe_font_size) { ?>
+	if ($parsifont_font_family || $parsifont_font_size) { ?>
 	  
 	<style>
 	 
 	textarea#content.wp-editor-area { 
 	
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}
 		
 	textarea#wp_mce_fullscreen { 
 	
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}
 		
 	textarea#replycontent { 
 	
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}
 
@@ -806,11 +806,11 @@ function my_admin_head() {
 	.press-this #message,
 	#media-items a.delete-permanently:hover {
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}		
 	</style>
@@ -827,7 +827,7 @@ function my_admin_head() {
 add_action('admin_head', 'my_admin_head');
 
 
-function afe_settings_page() { 
+function parsifont_settings_page() { 
 global $user_id;
 global $current_user;
 get_currentuserinfo();
@@ -839,20 +839,20 @@ $current_user->ID; ?>
 <?php echo '<h2>' . __('Parsi Font', 'parsifont') . '</h2>'; ?>
 
 <?php
-			if( $_POST['afe-font-family'] || $_POST['afe-font-size'] )  {
+			if( $_POST['parsifont-font-family'] || $_POST['parsifont-font-size'] )  {
 			  
-			      if (!$_POST['afe-font-family-user']) {
+			      if (!$_POST['parsifont-font-family-user']) {
 	      
-			      update_user_meta( $current_user->ID, 'afe-font-family', (string)$_POST['afe-font-family'] );
+			      update_user_meta( $current_user->ID, 'parsifont-font-family', (string)$_POST['parsifont-font-family'] );
 			      
 			      } else {
 				
-			      update_user_meta( $current_user->ID, 'afe-font-family', (string)trim($_POST['afe-font-family-user']) );
-			      update_user_meta( $current_user->ID, 'afe-font-family-user', (string)trim($_POST['afe-font-family-user']) );	
+			      update_user_meta( $current_user->ID, 'parsifont-font-family', (string)trim($_POST['parsifont-font-family-user']) );
+			      update_user_meta( $current_user->ID, 'parsifont-font-family-user', (string)trim($_POST['parsifont-font-family-user']) );	
 				
 			      }
 			
-			update_user_meta( $current_user->ID, 'afe-font-size', $_POST['afe-font-size'] ); ?>
+			update_user_meta( $current_user->ID, 'parsifont-font-size', $_POST['parsifont-font-size'] ); ?>
 						
 			<div id="setting-error-settings_updated" class="updated settings-error"> 
 			<p><strong><?php _e('Settings saved.', 'parsifont'); ?></strong></p></div>
@@ -868,15 +868,15 @@ $current_user->ID; ?>
         <th scope="row"><?php _e('Font Size (px)', 'parsifont'); ?></th>
         <td>
 	 
-		<select name="afe-font-size" id="afe-font-size" style="width:290px;">
+		<select name="parsifont-font-size" id="parsifont-font-size" style="width:290px;">
 			<option value=""><?php _e('Select', 'parsifont'); ?></option>
 			
 			<?php
 			
-			$afe_font_size = get_user_meta($current_user->ID, 'afe-font-size', true); 
+			$parsifont_font_size = get_user_meta($current_user->ID, 'parsifont-font-size', true); 
 			
 			for($i=10; $i<=22; $i++) { 
-				if ((string)$i !== (string)$afe_font_size) {  ?>
+				if ((string)$i !== (string)$parsifont_font_size) {  ?>
 				<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 				<?php } else { ?>
 				<option value="<?php echo $i; ?>" selected="selected"><?php echo $i; ?></option>
@@ -895,22 +895,22 @@ $current_user->ID; ?>
         <td>
 	 
 	
-		<select name="afe-font-family" id="afe-font-family" style="width:290px;">
+		<select name="parsifont-font-family" id="parsifont-font-family" style="width:290px;">
 			<option value=""><?php _e('Select font from list or type a font name below', 'parsifont'); ?></option>
 			
 			<?php
 			
-			$afe_font_family = get_user_meta($current_user->ID, 'afe-font-family', true);
-			$afe_font_family_user = get_user_meta($current_user->ID, 'afe-font-family-user', true); 
+			$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true);
+			$parsifont_font_family_user = get_user_meta($current_user->ID, 'parsifont-font-family-user', true); 
 			
-			$afe_fonts = array('B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS');
+			$parsifont_fonts = array('B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS');
 			
-			for($i=0; $i<count($afe_fonts); $i++) { 
-				if($afe_fonts[$i] !== $afe_font_family) { ?>
-				<option value="<?php echo $afe_fonts[$i]; ?>"><?php echo $afe_fonts[$i]; ?></option>
+			for($i=0; $i<count($parsifont_fonts); $i++) { 
+				if($parsifont_fonts[$i] !== $parsifont_font_family) { ?>
+				<option value="<?php echo $parsifont_fonts[$i]; ?>"><?php echo $parsifont_fonts[$i]; ?></option>
 				<?php } else {
 				  $using_preset = 1;  ?>
-				<option value="<?php echo $afe_fonts[$i]; ?>" selected="selected"><?php echo $afe_fonts[$i]; ?></option>
+				<option value="<?php echo $parsifont_fonts[$i]; ?>" selected="selected"><?php echo $parsifont_fonts[$i]; ?></option>
 				<?php }
 			
 			 } ?>
@@ -918,7 +918,7 @@ $current_user->ID; ?>
 		</select>
 	 
 	 	<br/>
-		<input type="text" placeholder="<?php _e('You can also type a font name here', 'parsifont'); ?>" value="<?php if(!$using_preset) { echo $afe_font_family_user;} ?>" name="afe-font-family-user" id="afe-font-family-user" style="width:290px;">
+		<input type="text" placeholder="<?php _e('You can also type a font name here', 'parsifont'); ?>" value="<?php if(!$using_preset) { echo $parsifont_font_family_user;} ?>" name="parsifont-font-family-user" id="parsifont-font-family-user" style="width:290px;">
 	 
 	
 	</td>
@@ -929,7 +929,7 @@ $current_user->ID; ?>
         <th scope="row"><?php _e('Preview', 'parsifont'); ?></th>
         <td>
 	 
-	<textarea name="afe-preview" style="text-align:center;font-size:<?php echo $afe_font_size; ?>px; font-family:<?php echo $afe_font_family; ?>; width: 305px; height: 79px;color:#000;" id="afe-preview" class="large-text code" disabled="disabled" spellcheck="false">.این متن فقط برای آزمایش است
+	<textarea name="parsifont-preview" style="text-align:center;font-size:<?php echo $parsifont_font_size; ?>px; font-family:<?php echo $parsifont_font_family; ?>; width: 305px; height: 79px;color:#000;" id="parsifont-preview" class="large-text code" disabled="disabled" spellcheck="false">.این متن فقط برای آزمایش است
 This text is just to test.</textarea>
 	
 		</td>
@@ -966,22 +966,22 @@ This text is just to test.</textarea>
 
 	jQuery(document).ready( function($) {
 	
-		$("#afe-font-family").change(function() {
-	   	$('#afe-preview').css("font-family", $(this).val());
-		$('#afe-font-family-user').val("");
+		$("#parsifont-font-family").change(function() {
+	   	$('#parsifont-preview').css("font-family", $(this).val());
+		$('#parsifont-font-family-user').val("");
 		});
 	
 	
-		$("#afe-font-size").change(function() {
-	   	$('#afe-preview').css("font-size", $(this).val() + "px");
+		$("#parsifont-font-size").change(function() {
+	   	$('#parsifont-preview').css("font-size", $(this).val() + "px");
 		});
 			
-		$("#afe-font-family-user").blur(function() {
+		$("#parsifont-font-family-user").blur(function() {
 		  
 		  if($(this).val()) {
 		  
-	   	$('#afe-preview').css("font-family", $(this).val());
-		$('#afe-font-family option[value=""]').attr('selected','selected');
+	   	$('#parsifont-preview').css("font-family", $(this).val());
+		$('#parsifont-font-family option[value=""]').attr('selected','selected');
 		  }
 	});
 	
@@ -995,26 +995,26 @@ This text is just to test.</textarea>
 }
 
 
-function afe_create_menu() {
+function parsifont_create_menu() {
 
-add_menu_page("پارسی فونت", "پارسی فونت", 1, "afe-settings", "afe_settings_page");  
+add_menu_page("پارسی فونت", "پارسی فونت", 1, "parsifont-settings", "parsifont_settings_page");  
 
 }
 
-add_action('admin_menu', 'afe_create_menu');
+add_action('admin_menu', 'parsifont_create_menu');
 
 function plugin_mce_css( $mce_css ) {
   
     global $current_user;
     get_currentuserinfo();
 
-	$afe_font_size = get_user_meta($current_user->ID, 'afe-font-size', true); 
-	$afe_font_family = get_user_meta($current_user->ID, 'afe-font-family', true); 
+	$parsifont_font_size = get_user_meta($current_user->ID, 'parsifont-font-size', true); 
+	$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true); 
   
 	if ( ! empty( $mce_css ) )
 		$mce_css .= ',';
 
-	$mce_css .= plugins_url( 'css.php?size='.$afe_font_size.'&font='.$afe_font_family, __FILE__ );
+	$mce_css .= plugins_url( 'css.php?size='.$parsifont_font_size.'&font='.$parsifont_font_family, __FILE__ );
 	
 	return $mce_css;
 }
@@ -1024,8 +1024,8 @@ add_filter( 'mce_css', 'plugin_mce_css' );
 
 
 // for transalations
-function afe_action_init() {
+function parsifont_action_init() {
 load_plugin_textdomain('parsifont', false, dirname(plugin_basename(__FILE__) ) . '/languages/' );
 }
 
-add_action('init', 'afe_action_init');
+add_action('init', 'parsifont_action_init');
