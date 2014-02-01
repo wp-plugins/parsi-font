@@ -45,10 +45,8 @@ A. To use this plugin you should only install plugin and select your custom font
 
 == Screenshots ==
 
- 1. Setting Page
-
- 2. WP Admin
-
+1. Setting Page
+2. WP Admin
 == Changelog ==
 
 = 1.0 =
