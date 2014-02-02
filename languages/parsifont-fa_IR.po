@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Parsi Font 1.0\n"
-"POT-Creation-Date: 2014-01-24 16:58+0330\n"
-"PO-Revision-Date: 2014-01-24 17:04+0330\n"
+"POT-Creation-Date: 2014-02-02 15:50+0330\n"
+"PO-Revision-Date: 2014-02-02 15:50+0330\n"
 "Last-Translator: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
 "Language-Team: WP-Parsi <ghaemomidi@yahoo.com>\n"
 "Language: fa_IR\n"
@@ -18,38 +18,39 @@ msgstr ""
 "X-Poedit-SearchPath-0: F:\\xampp\\htdocs\\wordpress\\wp-content\\plugins"
 "\\parsi-font\n"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:173
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:839
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:1000
 msgid "Parsi Font"
 msgstr "پارسی فونت"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:192
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:858
 msgid "Settings saved."
 msgstr "تنظیمات ذخیره شدند."
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:202
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:868
 msgid "Font Size (px)"
 msgstr "اندازه فونت (پیکسل)"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:206
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:872
 msgid "Select"
 msgstr "- - - انتخاب کنید - - -"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:228
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:894
 msgid "Font Family"
 msgstr "فونت ها"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:233
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:899
 msgid "Select font from list or type a font name below"
 msgstr "فونت خود را از لیست زیر انتخاب نمایید"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:255
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:921
 msgid "You can also type a font name here"
 msgstr "نام فونت مورد نظر خود را اینجا وارد نمایید."
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:263
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:929
 msgid "Preview"
 msgstr "پیش نمایش"
 
-#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:277
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:942
 msgid "Save Changes"
 msgstr "ذخیره تغییرات"

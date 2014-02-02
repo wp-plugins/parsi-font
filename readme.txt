@@ -2,7 +2,7 @@
 Contributors: Ghaem Omidi
 Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Requires at least: 3.7
-Stable tag: 2.0
+Stable tag: 3.0
 Tested up to: 3.8.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -53,3 +53,5 @@ A. To use this plugin you should only install plugin and select your custom font
 * Start Plugin
 = 2.0 =
 * Change codes of plugin
+= 3.0 =
+* Solve a problem
