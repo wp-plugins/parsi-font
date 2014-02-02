@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: الخط الفارسی 1.0\n"
+"POT-Creation-Date: 2014-01-28 06:48+0330\n"
+"PO-Revision-Date: 2014-01-28 06:55+0330\n"
+"Last-Translator: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
+"Language-Team: WP-Parsi <ghaemomidi@yahoo.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_e();__()\n"
+"X-Poedit-Basepath: F:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\parsi-"
+"font\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: F:\\xampp\\htdocs\\wordpress\\wp-content\\plugins"
+"\\parsi-font\n"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:402
+msgid "Parsi Font"
+msgstr "الخط الفارسي"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:421
+msgid "Settings saved."
+msgstr "تم حفظ الإعدادات."
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:431
+msgid "Font Size (px)"
+msgstr "حجم الخط (بیکسل)"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:435
+msgid "Select"
+msgstr "--- اختر ---"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:457
+msgid "Font Family"
+msgstr "الخطوط"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:462
+msgid "Select font from list or type a font name below"
+msgstr "اختر الخط من القائمة"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:484
+msgid "You can also type a font name here"
+msgstr "يمكنك أيضا كتابة اسم الخط هنا"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:492
+msgid "Preview"
+msgstr "معاينة"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:505
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
