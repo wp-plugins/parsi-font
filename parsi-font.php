@@ -902,7 +902,7 @@ $current_user->ID; ?>
 			$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true);
 			$parsifont_font_family_user = get_user_meta($current_user->ID, 'parsifont-font-family-user', true); 
 			
-			$parsifont_fonts = array('B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS');
+			$parsifont_fonts = array('B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans MS', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS');
 			
 			for($i=0; $i<count($parsifont_fonts); $i++) { 
 				if($parsifont_fonts[$i] !== $parsifont_font_family) { ?>
