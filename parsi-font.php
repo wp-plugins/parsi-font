@@ -263,7 +263,6 @@ function my_admin_head() {
 	#wp-auth-check-wrap #wp-auth-check-form,
 	#wp-auth-check-wrap #wp-auth-check-form iframe,
 	#wp-auth-check-wrap .wp-auth-check-close,
-	#wp-auth-check-wrap .wp-auth-check-close:before,
 	#wp-auth-check-wrap .wp-auth-check-close:hover:before,
 	#wp-auth-check-wrap .wp-auth-check-close:focus,
 	#wp-auth-check-wrap .wp-auth-fallback-expired,

@@ -23,9 +23,7 @@ Change Wordpress fonts to Parsi Fonts
 * Preview of the selected font and font size
 
 = Tested on =
-* PC Chrome
 * PC Firefox
-* PC ie10
 
 = Support Forum =
 http://forum.wp-parsi.com/
