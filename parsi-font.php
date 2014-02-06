@@ -3,10 +3,10 @@
 Plugin Name: Parsi Font
 Plugin URI: http://www.forum.wp-parsi.com/
 Description: Change fonts of wordpress.
-Author: Ghaem Omidi
+Author: Ghaem
 Version: 3.0
 Tags: admin, admin font, html editor, visual editor, fonts, font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
-Author URI: http://profiles.wordpress.org/shahrakdownload
+Author URI: http://www.forum.wp-parsi.com/
 Copyright: Ghaem Omidi(WP-Parsi)
 License: GPL
 
