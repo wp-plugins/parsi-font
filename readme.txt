@@ -58,4 +58,4 @@ A. To use this plugin you should only install plugin and select your custom font
 = 3.0 =
 * Change Name Of Plugin
 == Upgrade Notice ==
-به دلیل کار نکردن افزونه روی مرورگرهای کروم و اکسپلورر فعلا از این نسخه استفاده کنید. مشکل پیدا شده و بزودی حل می شود.
+= به دلیل کار نکردن افزونه روی مرورگرهای کروم و اکسپلورر فعلا از این نسخه استفاده کنید. مشکل پیدا شده و بزودی حل می شود. =
