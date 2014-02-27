@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parsi Font 1.0\n"
+"POT-Creation-Date: 2014-02-02 15:50+0330\n"
+"PO-Revision-Date: 2014-02-02 15:50+0330\n"
+"Last-Translator: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
+"Language-Team: WP-Parsi <ghaemomidi@yahoo.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_e();__()\n"
+"X-Poedit-Basepath: F:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\parsi-"
+"font\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: F:\\xampp\\htdocs\\wordpress\\wp-content\\plugins"
+"\\parsi-font\n"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:839
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:1000
+msgid "Parsi Font"
+msgstr "پارسی فونت"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:858
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شدند."
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:868
+msgid "Font Size (px)"
+msgstr "اندازه فونت (پیکسل)"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:872
+msgid "Select"
+msgstr "- - - انتخاب کنید - - -"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:894
+msgid "Font Family"
+msgstr "فونت ها"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:899
+msgid "Select font from list or type a font name below"
+msgstr "فونت خود را از لیست زیر انتخاب نمایید"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:921
+msgid "You can also type a font name here"
+msgstr "نام فونت مورد نظر خود را اینجا وارد نمایید."
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:929
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\parsi-font/parsi-font.php:942
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
