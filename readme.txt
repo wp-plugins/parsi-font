@@ -2,7 +2,7 @@
 Contributors: Ghaem
 Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Requires at least: 3.7
-Stable tag: 3.0
+Stable tag: 3.5
 Tested up to: 3.8.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,6 +24,8 @@ Change Wordpress fonts to Parsi Fonts
 
 = Tested on =
 * PC Firefox
+* PC Chrome
+* PC IE
 
 = Support Forum =
 http://forum.wp-parsi.com/
@@ -53,3 +55,7 @@ A. To use this plugin you should only install plugin and select your custom font
 * Change codes of plugin
 = 3.0 =
 * Solve a problem
+= 3.0 =
+* Change Name Of Plugin
+== Upgrade Notice ==
+به دلیل کار نکردن افزونه روی مرورگرهای کروم و اکسپلورر فعلا از این نسخه استفاده کنید. مشکل پیدا شده و بزودی حل می شود.
