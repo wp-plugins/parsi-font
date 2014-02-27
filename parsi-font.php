@@ -83,19 +83,6 @@ function my_admin_head() {
 	#adminmenu a:focus,
 	#adminmenu a:active,
 	.screen-reader-text:focus,
-	#adminmenu .menu-icon-dashboard div.wp-menu-image:before,
-	#adminmenu .menu-icon-post div.wp-menu-image:before,
-	#adminmenu .menu-icon-media div.wp-menu-image:before,
-	#adminmenu .menu-icon-links div.wp-menu-image:before,
-	#adminmenu .menu-icon-page div.wp-menu-image:before,
-	#adminmenu .menu-icon-comments div.wp-menu-image:before,
-	#adminmenu .menu-icon-appearance div.wp-menu-image:before,
-	#adminmenu .menu-icon-plugins div.wp-menu-image:before,
-	#adminmenu .menu-icon-users div.wp-menu-image:before,
-	#adminmenu .menu-icon-tools div.wp-menu-image:before,
-	#adminmenu .menu-icon-settings div.wp-menu-image:before,
-	#adminmenu .menu-icon-site div.wp-menu-image:before,
-	#adminmenu .menu-icon-generic div.wp-menu-image:before,
 	.wp-admin select,
 	.wp-admin .button-cancel,
 	.wp-admin select[multiple],
@@ -126,8 +113,6 @@ function my_admin_head() {
 	#wpadminbar ul li:after,
 	#wpadminbar a,
 	#wpadminbar a:hover,
-	#wpadminbar a img,
-	#wpadminbar a img:hover,
 	#wpadminbar a:focus,
 	#wpadminbar a:active,
 	#wpadminbar input[type="text"],
@@ -387,9 +372,7 @@ function my_admin_head() {
 	.attachment .icon,
 	.attachment .thumbnail,
 	.attachment-preview .thumbnail:after,
-	.attachment .thumbnail img,
 	.attachment .thumbnail .centered,
-	.attachment .thumbnail .centered img,
 	.attachment .filename,
 	.attachment .filename div,
 	.div,
@@ -397,7 +380,6 @@ function my_admin_head() {
 	.li,
 	.p,
 	.attachment-preview .thumbnail,
-	.attachment .thumbnail img,
 	.attachment .close,
 	.attachment .close:hover,
 	.attachment:hover .close,
@@ -639,7 +621,7 @@ function my_admin_head() {
 	.media-frame-content .media-toolbar .attachment-filters,
 	.media-frame .spinner,
 	.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,.rtl .wp_themeSkin .mceMenu .mceText,.rtl .wp-switch-editor,.rtl .quicktags-toolbar input,.rtl .clearlooks2 .mceTop span,.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,
-	.wp_themeSkin table,.wp_themeSkin tbody,.wp_themeSkin a,.wp_themeSkin img,.wp_themeSkin tr,.wp_themeSkin div,.wp_themeSkin td,.wp_themeSkin iframe,.wp_themeSkin span,.wp_themeSkin *,.wp_themeSkin .mceText,
+	.wp_themeSkin table,.wp_themeSkin tbody,.wp_themeSkin a,.wp_themeSkin tr,.wp_themeSkin div,.wp_themeSkin td,.wp_themeSkin iframe,.wp_themeSkin span,.wp_themeSkin *,.wp_themeSkin .mceText,
 	.ui-helper-hidden,
 	.ui-helper-hidden-accessible,
 	.ui-helper-reset,
@@ -835,7 +817,7 @@ $current_user->ID; ?>
 <div class="wrap">
 
 <div id="icon-options-general" class="icon32"><br></div>
-<?php echo '<h2>' . __('Parsi Font', 'parsifont') . '</h2>'; ?>
+<?php echo '<h2>' . __('Parsi Font', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font') . '</h2>'; ?>
 
 <?php
 			if( $_POST['parsifont-font-family'] || $_POST['parsifont-font-size'] )  {
@@ -854,7 +836,7 @@ $current_user->ID; ?>
 			update_user_meta( $current_user->ID, 'parsifont-font-size', $_POST['parsifont-font-size'] ); ?>
 						
 			<div id="setting-error-settings_updated" class="updated settings-error"> 
-			<p><strong><?php _e('Settings saved.', 'parsifont'); ?></strong></p></div>
+			<p><strong><?php _e('Settings saved.', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></strong></p></div>
 			
 			<?php 
 			} ?>
@@ -864,11 +846,11 @@ $current_user->ID; ?>
    <table class="form-table">
         
 	 <tr valign="top">
-        <th scope="row"><?php _e('Font Size (px)', 'parsifont'); ?></th>
+        <th scope="row"><?php _e('Font Size (px)', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></th>
         <td>
 	 
 		<select name="parsifont-font-size" id="parsifont-font-size" style="width:290px;">
-			<option value=""><?php _e('Select', 'parsifont'); ?></option>
+			<option value=""><?php _e('Select', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></option>
 			
 			<?php
 			
@@ -890,12 +872,12 @@ $current_user->ID; ?>
         </tr>
 	 
 	  <tr valign="top">
-        <th scope="row"><?php _e('Font Family', 'parsifont'); ?></th>
+        <th scope="row"><?php _e('Font Family', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></th>
         <td>
 	 
 	
 		<select name="parsifont-font-family" id="parsifont-font-family" style="width:290px;">
-			<option value=""><?php _e('Select font from list or type a font name below', 'parsifont'); ?></option>
+			<option value=""><?php _e('Select font from list or type a font name below', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></option>
 			
 			<?php
 			
@@ -917,7 +899,7 @@ $current_user->ID; ?>
 		</select>
 	 
 	 	<br/>
-		<input type="text" placeholder="<?php _e('You can also type a font name here', 'parsifont'); ?>" value="<?php if(!$using_preset) { echo $parsifont_font_family_user;} ?>" name="parsifont-font-family-user" id="parsifont-font-family-user" style="width:290px;">
+		<input type="text" placeholder="<?php _e('You can also type a font name here', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?>" value="<?php if(!$using_preset) { echo $parsifont_font_family_user;} ?>" name="parsifont-font-family-user" id="parsifont-font-family-user" style="width:290px;">
 	 
 	
 	</td>
@@ -925,7 +907,7 @@ $current_user->ID; ?>
 	
 	
 		  <tr valign="top">
-        <th scope="row"><?php _e('Preview', 'parsifont'); ?></th>
+        <th scope="row"><?php _e('Preview', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></th>
         <td>
 	 
 	<textarea name="parsifont-preview" style="text-align:center;font-size:<?php echo $parsifont_font_size; ?>px; font-family:<?php echo $parsifont_font_family; ?>; width: 305px; height: 79px;color:#000;" id="parsifont-preview" class="large-text code" disabled="disabled" spellcheck="false">.این متن فقط برای آزمایش است
@@ -938,7 +920,7 @@ This text is just to test.</textarea>
 
     
     <p class="submit">
-    <input type="submit" class="button-primary" value="<?php _e('Save Changes', 'parsifont') ?>" />
+    <input type="submit" class="button-primary" value="<?php _e('Save Changes', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font') ?>" />
     </p>
 
 
@@ -996,7 +978,7 @@ This text is just to test.</textarea>
 
 function parsifont_create_menu() {
 
-add_menu_page(__("Parsi Font", 'parsifont'), __("Parsi Font", 'parsifont'), 1, "parsifont-settings", "parsifont_settings_page");  
+add_menu_page(__("Parsi Font", 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'), __("Parsi Font", 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'), 1, "parsifont-settings", "parsifont_settings_page");  
 
 }
 
