@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Parsi Font
+Plugin Name: WP-Parsi Admin Font Editor
 Plugin URI: http://www.forum.wp-parsi.com/
 Description: Change fonts of wordpress.
 Author: Ghaem

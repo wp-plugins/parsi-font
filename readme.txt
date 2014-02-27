@@ -1,4 +1,4 @@
-=== Parsi Font ===
+=== WP-Parsi Admin Font Editor ===
 Contributors: Ghaem
 Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Requires at least: 3.7
@@ -30,10 +30,10 @@ http://forum.wp-parsi.com/
 
 == Installation ==
 
-1. Upload 'parsi-font' to the '/wp-content/plugins/' directory
+1. Upload 'wp-parsi-admin-font-editor' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click on the new menu item "Parsi Font" and see settings of this plugin.
-4. Or you can install the plugin in: "Plugins ==> Add ==> enter the name of plugin (parsi-font) in search box and press Enter
+4. Or you can install the plugin in: "Plugins ==> Add ==> enter the name of plugin (wp-parsi admin font editor) in search box and press Enter
 5. Install plugin, activate it and enjoy of plugin 
 
 == Frequently Asked Questions ==
