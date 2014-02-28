@@ -34,37 +34,36 @@ function my_admin_head() {
 	textarea#content.wp-editor-area { 
 	
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}
 		
 	textarea#wp_mce_fullscreen { 
 	
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}
 		
 	textarea#replycontent { 
 	
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}
 
-	body#tinymce.wp-editor 
 	#wpwrap,
 	#wpcontent,
 	#wpfooter,
@@ -216,16 +215,15 @@ function my_admin_head() {
 	#html,
 	.wp_themeSkin table td,
 	#wp-link .toggle-arrow,
-	.wp-editor-container,
-	.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,.rtl .wp_themeSkin .mceMenu .mceText,.rtl .wp-switch-editor,.rtl .quicktags-toolbar input,.rtl .clearlooks2 .mceTop span,.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,
+	.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,.rtl .wp_themeSkin .mceMenu,.rtl .wp-switch-editor,.rtl .quicktags-toolbar input,.rtl .clearlooks2 .mceTop span,.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,
 	.wp_themeSkin table,.wp_themeSkin tbody,.wp_themeSkin a,.wp_themeSkin img,.wp_themeSkin tr,.wp_themeSkin div,.wp_themeSkin td,.wp_themeSkin iframe,.wp_themeSkin span,.wp_themeSkin *,.wp_themeSkin .mceText,
 	#media-items a.delete-permanently:hover {
 	<?php
-	if ($afe_font_family) { ?>	
-	font-family: <?php echo $afe_font_family; ?>;
+	if ($parsifont_font_family) { ?>	
+	font-family: <?php echo $parsifont_font_family; ?>;
 	<?php } 
-	if ($afe_font_size) { ?>	
-	font-size: <?php echo $afe_font_size; ?>px;
+	if ($parsifont_font_size) { ?>	
+	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
 	}		
 	</style>
