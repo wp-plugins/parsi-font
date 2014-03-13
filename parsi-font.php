@@ -368,7 +368,7 @@ This text is just to test.</textarea>
     <li><strong>نوشتن نام فونت مورد نظر کاربر</strong></li>
     <li><strong>این افزونه توسط قائم امیدی ساخته شده است.</strong></li>
 </ul>
-<div style="text-align:center;"><b><h3>تقدیم به تمامی کاربران وردپرس پارسی</h3><b></div>
+<div style="text-align:center;"><b><h3>تقدیم به تمامی کاربران وردپرس پارسی و ماندگار وب</h3><b></div>
 </div>
 
 </div>
