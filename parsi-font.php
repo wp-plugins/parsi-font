@@ -2,12 +2,12 @@
 /*
 Plugin Name: WP-Parsi Admin Font Editor
 Plugin URI: http://www.forum.wp-parsi.com/
-Description: Change Font Of Wordpress Dashboard.
+Description: Change fonts of wordpress.
 Author: Ghaem
 Version: 3.0
 Tags: admin, admin font, html editor, visual editor, fonts, font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
 Author URI: http://www.forum.wp-parsi.com/
-Copyright: Ghaem Omidi - 2014
+Copyright: Ghaem Omidi(WP-Parsi)
 License: GPL
 
 */
@@ -15,7 +15,7 @@ License: GPL
 /* 
 Special thanks to :
 	Ariaieboy
- 	Wordpress Parsi admins and moderators.
+ 	Wordpress Parsi admins and moderators (Parsa Kafi, Mohsen Ghiasi, Saeed Fard, Abdolmajed Shahbakhsh, Morteza Rocky and Mostafa Soufi)
  	Wordpress Parsi forum members for great support(forum.wp-parsi.com)
 */
 
@@ -171,6 +171,7 @@ function my_admin_head() {
 	.ui-draggable .ui-dialog-titlebar,
 	.wp-dialog,
 	.wp-dialog .ui-dialog-title,
+	.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,.rtl .wp_themeSkin .mceMenu .mceText,.rtl .wp-switch-editor,.rtl .quicktags-toolbar input,.rtl .clearlooks2 .mceTop span,.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,
 	.fade-trigger,
 	.wp-switch-editor switch-html,
 	.mceText mceTitle,
@@ -198,15 +199,9 @@ function my_admin_head() {
 	input.large-text,textarea.large-text,
 	text,
 	input[type="text"],
-	.wp_themeSkin .mceListBox a.mceText,
 	code,
 	kbd,code,
 	.titlewrap input,
-	.rtl .media-frame input[type="text"],
-	.rtl .media-frame .search,
-	.rtl .media-frame input[type="search"],
-	.rtl .media-frame select,
-	.media-modal .media-sidebar .setting textarea,
 	#TB_ajaxWindowTitle,
 	#sidemenu,
 	body *,
@@ -216,13 +211,9 @@ function my_admin_head() {
 	#sidemenu a.current,
 	textarea.code,	
 	html,
-	*,
 	.html,
 	#html,
 	.wp_themeSkin table td,
-	#wp-content-editor-container,
-	.wp_themeSkin *,
-	.wp_themeSkin tr,
 	#wp-link .toggle-arrow,
 	.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,.rtl .wp_themeSkin .mceMenu,.rtl .wp-switch-editor,.rtl .quicktags-toolbar input,.rtl .clearlooks2 .mceTop span,.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,
 	.wp_themeSkin table,.wp_themeSkin tbody,.wp_themeSkin a,.wp_themeSkin img,.wp_themeSkin tr,.wp_themeSkin div,.wp_themeSkin td,.wp_themeSkin iframe,.wp_themeSkin span,.wp_themeSkin *,.wp_themeSkin .mceText,
@@ -234,221 +225,7 @@ function my_admin_head() {
 	if ($parsifont_font_size) { ?>	
 	font-size: <?php echo $parsifont_font_size; ?>px;
 	<?php } ?>
-	}
-	.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors,.rtl .wp-switch-editor,.rtl .quicktags-toolbar input,.rtl .clearlooks2 .mceTop span,.rtl .wp_themeSkin .mceColorSplitMenu a.mceMoreColors {
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?> !important;
-	<?php } 
-	if ($parsifont_font_size) { ?>	
-	font-size: <?php echo $parsifont_font_size; ?>px;
-	<?php } ?>
-	}
-	.bodyparsi {
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	font-size:10pt;
-	color:#787878;
-	direction:rtl;
-	text-align:right;
-	margin:0 auto;
-	width:560px;
-	padding:0px;
-	background-color:#fff;
-	border-top-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	}
-	.error{
-	width:400px;
-	border:1px #d3400d solid;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	padding:10px 10px 10px 10px;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	text-align: center !important;
-	display:block !important;
-	float:none !important;
-	margin-right:auto !important;
-	margin-left:auto !important;
-	background:yellow  !important;
-	}
-	.ok{
-	width:500px;
-	border:1px #a1cb45 solid;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	margin:5px 10px 10px 10px;
-	padding:10px 10px 10px 10px;
-	background:#eaf8cc;
-	display:block;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	float: none;
-	}
-	#mainparsi{
-	background-color:#ffffff;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	border: 4px dashed #F00;
-	border-top-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	}
-	.clear{clear:both}
-	form {
-	margin:0px;
-	padding:0px;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	input, select {
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	padding:5px;
-	font-size:10pt;
-	border: 1px solid #cacaca;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	}
-	input[type="submit"]{
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	padding:5px;
-	font-size:11pt;
-	border: 1px solid #cacaca;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	}
-	.contentparsi {
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	margin:50px 0 0 0;
-	padding:10px;
-	text-align: center;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.formsparsi {
-	direction: rtl;
-	padding-right:20px;
-	text-align: right;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.formsparsi h2 {
-	padding: 8px 2px;
-	border-bottom: 1px solid #CCC;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.formsparsi label {
-	width: 100px;
-	text-align: center;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	display:block;
-	float:none;
-	margin-right:auto;
-	margin-left:auto;
-	}
-	.formsparsi .formparsi, .formsparsi .form-ltr {
-	width: 300px;
-	float: right;
-	padding: 2px;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	margin: 5px 0;
-	}
-	.formsparsi .form-ltr {
-	direction: ltr;
-	text-align: left;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.formsparsi.text {
-	width: 250px;
-	height: 100px;
-	overflow: auto;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.submitbot:hover {
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	padding:5px;
-	font-size:11pt;
-	border: 1px solid #7613ae;
-	background:#7613ae;
-	color:#fff;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	}
-	.textare2:hover {
-	border: 1px solid #6295f3;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.textare2 {
-	width:500px;
-	}
-	.textare1:hover {
-	border: 1px solid #6295f3;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	}
-	.textare1 {
-	width:500px;
-	<?php
-	if ($parsifont_font_family) { ?>	
-	font-family: <?php echo $parsifont_font_family; ?>;
-	<?php } ?>
-	padding:5px;
-	font-size:10pt;
-	border: 1px solid #cacaca;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	}
+	}		
 	</style>
 	
 	
@@ -472,9 +249,8 @@ $current_user->ID; ?>
 <div class="wrap">
 
 <div id="icon-options-general" class="icon32"><br></div>
-<div style="margin-top:40px;font-size:50px;text-align:center;"><?php _e('Parsi Font', 'parsifont'); ?></div>
-<br/>
-<br/>
+<?php echo '<h2>' . __('Parsi Font', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font') . '</h2>'; ?>
+
 <?php
 			if( $_POST['parsifont-font-family'] || $_POST['parsifont-font-size'] )  {
 			  
@@ -492,7 +268,7 @@ $current_user->ID; ?>
 			update_user_meta( $current_user->ID, 'parsifont-font-size', $_POST['parsifont-font-size'] ); ?>
 						
 			<div id="setting-error-settings_updated" class="updated settings-error"> 
-			<p><strong><?php _e('Settings saved.', 'parsifont'); ?></strong></p></div>
+			<p><strong><?php _e('Settings saved.', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></strong></p></div>
 			
 			<?php 
 			} ?>
@@ -502,11 +278,11 @@ $current_user->ID; ?>
    <table class="form-table">
         
 	 <tr valign="top">
-        <th scope="row"><?php _e('Font Size (px)', 'parsifont'); ?></th>
+        <th scope="row"><?php _e('Font Size (px)', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></th>
         <td>
 	 
 		<select name="parsifont-font-size" id="parsifont-font-size" style="width:290px;">
-			<option value=""><?php _e('Select', 'parsifont'); ?></option>
+			<option value=""><?php _e('Select', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></option>
 			
 			<?php
 			
@@ -528,12 +304,12 @@ $current_user->ID; ?>
         </tr>
 	 
 	  <tr valign="top">
-        <th scope="row"><?php _e('Font Family', 'parsifont'); ?></th>
+        <th scope="row"><?php _e('Font Family', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></th>
         <td>
 	 
 	
 		<select name="parsifont-font-family" id="parsifont-font-family" style="width:290px;">
-			<option value=""><?php _e('Select font from list or type a font name below', 'parsifont'); ?></option>
+			<option value=""><?php _e('Select font from list or type a font name below', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></option>
 			
 			<?php
 			
@@ -555,7 +331,7 @@ $current_user->ID; ?>
 		</select>
 	 
 	 	<br/>
-		<input type="text" placeholder="<?php _e('You can also type a font name here', 'parsifont'); ?>" value="<?php if(!$using_preset) { echo $parsifont_font_family_user;} ?>" name="parsifont-font-family-user" id="parsifont-font-family-user" style="width:290px;">
+		<input type="text" placeholder="<?php _e('You can also type a font name here', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?>" value="<?php if(!$using_preset) { echo $parsifont_font_family_user;} ?>" name="parsifont-font-family-user" id="parsifont-font-family-user" style="width:290px;">
 	 
 	
 	</td>
@@ -563,11 +339,11 @@ $current_user->ID; ?>
 	
 	
 		  <tr valign="top">
-        <th scope="row" ><?php _e('Preview', 'parsifont'); ?></th>
+        <th scope="row"><?php _e('Preview', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'); ?></th>
         <td>
 	 
-	<textarea name="parsifont-preview" style="text-align:center;font-size:<?php echo $parsifont_font_size; ?>px; font-family:<?php echo $parsifont_font_family; ?>; width:400px;height:90px;color:#000;" id="parsifont-preview" class="large-text code" disabled="disabled" spellcheck="false">This text is just to test.
-	<?php _e('This text is just to test.', 'parsifont') ?></textarea>
+	<textarea name="parsifont-preview" style="text-align:center;font-size:<?php echo $parsifont_font_size; ?>px; font-family:<?php echo $parsifont_font_family; ?>; width: 305px; height: 79px;color:#000;" id="parsifont-preview" class="large-text code" disabled="disabled" spellcheck="false">.این متن فقط برای آزمایش است
+This text is just to test.</textarea>
 	
 		</td>
         </tr>
@@ -576,85 +352,29 @@ $current_user->ID; ?>
 
     
     <p class="submit">
-    <input type="submit" class="button-primary" value="<?php _e('Save Changes', 'parsifont') ?>" />
+    <input type="submit" class="button-primary" value="<?php _e('Save Changes', 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font') ?>" />
     </p>
 
 
 </form>
 
-<div style="padding-top:8px;color:#666;text-align:center;background: none repeat scroll 0% 0% #F5F5DC;padding-bottom:50px;border-bottom-right-radius:44px;border-top-left-radius:44px;border:5px dashed;">
-<h3><b><?php _e('Plugin Features', 'parsifont') ?></b></h3>
-<ul>
-
-	<li><strong><?php _e('Beautiful dashboard by changing the font', 'parsifont') ?></strong></li>
-    <li><strong><?php _e('Change font Wordpress dashboard', 'parsifont') ?></strong></li>
-    <li><strong><?php _e('Select a font from the list of available fonts', 'parsifont') ?></strong></li>	
-    <li><strong><?php _e('The user can write the name of the own favorite font.', 'parsifont') ?></strong></li>
-    <li><strong><?php _e('This plugin is developed by Ghaem Omidi.', 'parsifont') ?></strong></li>
+<div style="border-top: 1px solid #ccc; padding-top: 8px; color: #666;">
+<b><h3>ویژگی های افزونه</h3><b>
+<ul style="list-style:inside">
+	<li><strong>زیبا کردن پنل مدیریت با تغییر فونت</strong></li>
+	<li><strong>تغییر فونت ویرایشگر وردپرس</strong></li>
+    <li><strong>تغییر فونت پنل مدیریت وردپرس</strong></li>
+    <li><strong>انتخاب فونت از لیست موجود فونت ها</strong></li>	
+    <li><strong>نوشتن نام فونت مورد نظر کاربر</strong></li>
+    <li><strong>این افزونه توسط قائم امیدی ساخته شده است.</strong></li>
 </ul>
-<div style="text-align:center;"><b><h3><?php _e('Dedicated to the all users of WP-Parsi and Mandegarweb.', 'parsifont') ?></h3></b></div>
+<div style="text-align:center;"><b><h3>تقدیم به تمامی کاربران وردپرس پارسی و ماندگار وب</h3><b></div>
+</div>
 
-<?php
-session_start();
-if(isset($_POST['submit'])) {
-if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])  && !empty($_POST['subject'])) {
-if($_POST['code'] == $_SESSION['rand_code']) {
-// send email
-$accept = __('Your message was successfully sent. Thanks', 'parsifont');
-$to = "ghaemomidi@yahoo.com";
-$subject = $_POST['subject'];
-$name= $_POST['name'];
-$from = $_POST['email'];
-$user_message = $_POST['message'];
-$body = "\n".
-"Name: $name\n".
-"Email: $from \n".
-"Message: \n ".
-"$user_message\n".
-$headers = "From: $from \r\n";
-$headers .= "Reply-To: $from \r\n";
-mail($to, $subject, $body, $headers);
-}
-} else {
-$error = __('Please fill all fields.', 'parsifont');
-}
-}
-?>
-<div class="bodyparsi">
-<div id="mainparsi">
-<div class="contentparsi">
-<h2><?php _e('If you want your favorite font to be used in plugin or you have comments or suggestions please let us know via this form:', 'parsifont') ?></h2>
-<?php if(!empty($error)) echo '<div class="error">'.$error.'</div>'; ?>
-<?php if(!empty($accept)) echo '<div class="ok">'.$accept.'</div>'; ?>
-<p>
-<div class="formsparsi">     
-<form action="" method="post">
-<label for="username"><?php _e('Name', 'parsifont') ?></label>
-<br/>
-<input class="textare2" type="text" class="formparsi" value="" name="name">
-<br/><br/>
-<label for="email"><?php _e('Email', 'parsifont') ?></label>
-<br/>
-<input class="textare2" type="text" id="email" value="" class="form-ltr" name="email">
-<br/><br/>
-<label for="sub"><?php _e('Subject', 'parsifont') ?></label>
-<br/>
-<input class="textare2" type="text" id="sub" value="" class="formparsi" name="subject">
-<br/><br/>
-<label for="mess"><?php _e('Your Message', 'parsifont') ?></label>
-<br/>
-<textarea class="textare1" id="mess" rows="7" name="message"></textarea>
-<br/><br/>
-<input style="float:none !important;margin-right:auto;margin-left:auto;display:block;" class="submitbot" type="submit" name="submit" value="<?php _e('Send', 'parsifont') ?>">
-</form>
 </div>
-</p>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-</div>
+
+
+
 <script type="text/javascript">
 
 	jQuery(document).ready( function($) {
@@ -689,10 +409,32 @@ $error = __('Please fill all fields.', 'parsifont');
 
 
 function parsifont_create_menu() {
-add_menu_page(__("Parsi Font", 'parsifont'), __("Parsi Font", 'parsifont'), 1, "parsifont-settings", "parsifont_settings_page");  
+
+add_menu_page(__("Parsi Font", 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'), __("Parsi Font", 'parsifont', 'G:\\\\Web\\\\Wordpress\\\\Plugins\\\\parsi-font'), 1, "parsifont-settings", "parsifont_settings_page");  
+
 }
 
 add_action('admin_menu', 'parsifont_create_menu');
+
+function plugin_mce_css( $mce_css ) {
+  
+    global $current_user;
+    get_currentuserinfo();
+
+	$parsifont_font_size = get_user_meta($current_user->ID, 'parsifont-font-size', true); 
+	$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true); 
+  
+	if ( ! empty( $mce_css ) )
+		$mce_css .= ',';
+
+	$mce_css .= plugins_url( 'css.php?size='.$parsifont_font_size.'&font='.$parsifont_font_family, __FILE__ );
+	
+	return $mce_css;
+}
+
+add_filter( 'mce_css', 'plugin_mce_css' );
+
+
 
 // for transalations
 function parsifont_action_init() {
