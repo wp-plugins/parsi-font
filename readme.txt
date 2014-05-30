@@ -1,9 +1,9 @@
 === WP-Parsi Admin Font Editor ===
 Contributors: Ghaem
-Tags: font, wordpress font, change font, parsi font, fonts, oersian, persian fonts, persian font
+Tags: admin, admin font, html editor, visual editor, fonts, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
 Requires at least: 3.7
-Stable tag: 3.0
-Tested up to: 3.8.1
+Stable tag: 3.9.1
+Tested up to: 3.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,10 +31,10 @@ http://forum.wp-parsi.com/
 
 == Installation ==
 
-1. Upload 'wp-parsi-admin-font-editor' to the '/wp-content/plugins/' directory
+1. Upload 'parsi-font' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click on the new menu item "Parsi Font" and see settings of this plugin.
-4. Or you can install the plugin in: "Plugins ==> Add ==> enter the name of plugin (wp-parsi admin font editor) in search box and press Enter
+4. Or you can install the plugin in: "Plugins ==> Add ==> enter the name of plugin (WP-Parsi Admin Font Editor) in search box and press Enter
 5. Install plugin, activate it and enjoy of plugin 
 
 == Frequently Asked Questions ==
@@ -44,8 +44,7 @@ A. To use this plugin you should only install plugin and select your custom font
 
 == Screenshots ==
 
-1. Setting Page
-2. WP Admin with ((B Koodak)) & ((Comic Sans MS))
+1. Settings Page with Parsi fonts.
 == Changelog ==
 
 = 1.0 =
@@ -54,3 +53,6 @@ A. To use this plugin you should only install plugin and select your custom font
 * Change codes of plugin
 = 3.0 =
 * Solve a problem
+= 3.9.1 =
+* Change style of settings page
+* Add Feedback form
