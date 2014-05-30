@@ -15,7 +15,6 @@ Change Wordpress fonts to Parsi Fonts
 
 = List of some features: =
 * Settings Page
-* Size Low
 * The ability to choose the font size
 * Select a font from the available fonts in plugin
 * Change fonts of Wordpress admin and Wordpress editors
@@ -24,6 +23,8 @@ Change Wordpress fonts to Parsi Fonts
 
 = Tested on =
 * PC Firefox
+* PC IE
+* PC Chrome
 
 = Support Forum =
 http://forum.wp-parsi.com/
