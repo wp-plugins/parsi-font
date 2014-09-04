@@ -2,10 +2,10 @@
 /*
 Plugin Name: WP-Parsi Admin Font Editor
 Plugin URI: http://forum.wp-parsi.com/
-Description: Change Font Of Wordpress Dashboard
+Description: Change WordPress admin font
 Author: Ghaem
-Version: 3.9.1
-Tags: admin, admin font, html editor, visual editor, fonts, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
+Version: 4.0
+Tags: admin, admin font, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
 Author URI: http://barfaksite.ir/
 Copyright: Ghaem Omidi - 2014
 License: GPL
@@ -13,8 +13,7 @@ License: GPL
 */
 
 /* 
-Special thanks to :
- 	Wordpress Parsi
+Special thanks to : WP-Parsi
 */
 
 
@@ -540,7 +539,7 @@ $current_user->ID; ?>
 			$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true);
 			$parsifont_font_family_user = get_user_meta($current_user->ID, 'parsifont-font-family-user', true); 
 			
-			$parsifont_fonts = array('B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans MS', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS');
+			$parsifont_fonts = array('Sultan Koufi', 'IranNastaliq', 'IRYekan', 'B Nazanin', 'BBCNassim', 'B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans MS', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS', 'B Nazanin, Comic Sans MS', 'BBCNassim, Comic Sans MS', 'IRYekan, Comic Sans MS', 'IranNastaliq, Comic Sans MS', 'Sultan Koufi, Comic Sans MS');
 			
 			for($i=0; $i<count($parsifont_fonts); $i++) { 
 				if($parsifont_fonts[$i] !== $parsifont_font_family) { ?>
@@ -574,6 +573,8 @@ $current_user->ID; ?>
 
 </table>
 
+<p style="text-align:center !important;font-size:20px;"><a style="text-decoration: none;" href="http://e-themes.ir/wp-content/uploads/fonts.zip"><?php _e('Download fonts', 'parsifont') ?></a></p>
+
     
     <p class="submit">
     <input type="submit" class="button-primary" value="<?php _e('Save Changes', 'parsifont') ?>" />
@@ -587,7 +588,7 @@ $current_user->ID; ?>
 <ul>
 
 	<li><strong><?php _e('Beautiful dashboard by changing the font', 'parsifont') ?></strong></li>
-    <li><strong><?php _e('Change font Wordpress dashboard', 'parsifont') ?></strong></li>
+    <li><strong><?php _e('Change font WordPress dashboard', 'parsifont') ?></strong></li>
     <li><strong><?php _e('Select a font from the list of available fonts', 'parsifont') ?></strong></li>	
     <li><strong><?php _e('The user can write the name of the own favorite font.', 'parsifont') ?></strong></li>
     <li><strong><?php _e('This plugin is developed by Ghaem Omidi.', 'parsifont') ?></strong></li>

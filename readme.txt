@@ -1,25 +1,24 @@
 === WP-Parsi Admin Font Editor ===
 Contributors: Ghaem
-Tags: admin, admin font, html editor, visual editor, fonts, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
+Tags: admin, admin font, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
 Requires at least: 3.7
-Stable tag: 3.9.1
-Tested up to: 3.9.1
+Stable tag: 4.0
+Tested up to: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Change font of Wordpress admin  and Wordpress editors.
+Change WordPress admin font
 
 == Description ==
 
-Change Wordpress fonts to Parsi Fonts
+Change WordPress admin font
 
 = List of some features: =
 * Settings Page
 * The ability to choose the font size
 * Select a font from the available fonts in plugin
-* Change fonts of Wordpress admin and Wordpress editors
-* The user can enter the name of own favorite fonts.
-* Preview of the selected font and font size
+* Change fonts of WordPress admin
+* Preview of the selected font(s) and font size
 
 = Tested on =
 * PC Firefox
@@ -40,11 +39,11 @@ http://forum.wp-parsi.com/
 == Frequently Asked Questions ==
 
 = Q. How to use this plugin? = 
-A. To use this plugin you should only install plugin and select your custom fonts in settings page.
+A. To use this plugin you should only install plugin, select your custom font in settings page, save changes and refresh page.
 
 == Screenshots ==
 
-1. Settings Page with Parsi fonts.
+1. Settings Page with B Homa and Comic Sans MS fonts.
 == Changelog ==
 
 = 1.0 =
@@ -56,3 +55,6 @@ A. To use this plugin you should only install plugin and select your custom font
 = 3.9.1 =
 * Change style of settings page
 * Add Feedback form
+= 4.0 =
+* Add new fonts
+* Add font pack (.zip) for download

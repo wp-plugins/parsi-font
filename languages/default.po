@@ -1,114 +1,124 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Parsi Font 3.8\n"
-"POT-Creation-Date: 2014-04-28 20:45+0330\n"
-"PO-Revision-Date: 2014-04-28 21:26+0330\n"
+"Project-Id-Version: Parsi Font 4.0\n"
+"POT-Creation-Date: 2014-09-04 15:52+0330\n"
+"PO-Revision-Date: 2014-09-04 15:53+0330\n"
 "Last-Translator: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
-"Language-Team: \n"
+"Language-Team: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
 
-#: parsi-font.php:475 parsi-font.php:692
+#: ../parsi-font.php:474 ../parsi-font.php:693
 msgid "Parsi Font"
 msgstr ""
 
-#: parsi-font.php:495
+#: ../parsi-font.php:494
 msgid "Settings saved."
 msgstr ""
 
-#: parsi-font.php:505
+#: ../parsi-font.php:504
 msgid "Font Size (px)"
 msgstr ""
 
-#: parsi-font.php:509
+#: ../parsi-font.php:508
 msgid "Select Font Size"
 msgstr ""
 
-#: parsi-font.php:531
+#: ../parsi-font.php:530
 msgid "Font Family"
 msgstr ""
 
-#: parsi-font.php:536
+#: ../parsi-font.php:535
 msgid "Select font from list or type a font name below"
 msgstr ""
 
-#: parsi-font.php:558
+#: ../parsi-font.php:557
 msgid "You can also type a font name here"
 msgstr ""
 
-#: parsi-font.php:566
+#: ../parsi-font.php:565
 msgid "Preview"
 msgstr ""
 
-#: parsi-font.php:570
+#: ../parsi-font.php:569
 msgid "This text is just to test."
 msgstr ""
 
-#: parsi-font.php:579
+#: ../parsi-font.php:576
+msgid "Download fonts"
+msgstr ""
+
+#: ../parsi-font.php:580
 msgid "Save Changes"
 msgstr ""
 
-#: parsi-font.php:586
+#: ../parsi-font.php:587
 msgid "Plugin Features"
 msgstr ""
 
-#: parsi-font.php:589
+#: ../parsi-font.php:590
 msgid "Beautiful dashboard by changing the font"
 msgstr ""
 
-#: parsi-font.php:590
-msgid "Change font Wordpress dashboard"
+#: ../parsi-font.php:591
+msgid "Change font WordPress dashboard"
 msgstr ""
 
-#: parsi-font.php:591
+#: ../parsi-font.php:592
 msgid "Select a font from the list of available fonts"
 msgstr ""
 
-#: parsi-font.php:592
+#: ../parsi-font.php:593
 msgid "The user can write the name of the own favorite font."
 msgstr ""
 
-#: parsi-font.php:593
+#: ../parsi-font.php:594
 msgid "This plugin is developed by Ghaem Omidi."
 msgstr ""
 
-#: parsi-font.php:595
+#: ../parsi-font.php:596
 msgid "Dedicated to the all users of WP-Parsi and Mandegarweb."
 msgstr ""
 
-#: parsi-font.php:603
+#: ../parsi-font.php:604
 msgid "Your message was successfully sent. Thanks"
 msgstr ""
 
-#: parsi-font.php:619
+#: ../parsi-font.php:620
 msgid "Please fill all fields."
 msgstr ""
 
-#: parsi-font.php:626
+#: ../parsi-font.php:627
 msgid ""
 "If you want your favorite font to be used in plugin or you have comments or "
 "suggestions please let us know via this form:"
 msgstr ""
 
-#: parsi-font.php:632
+#: ../parsi-font.php:633
 msgid "Name"
 msgstr ""
 
-#: parsi-font.php:636
+#: ../parsi-font.php:637
 msgid "Email"
 msgstr ""
 
-#: parsi-font.php:640
+#: ../parsi-font.php:641
 msgid "Subject"
 msgstr ""
 
-#: parsi-font.php:644
+#: ../parsi-font.php:645
 msgid "Your Message"
 msgstr ""
 
-#: parsi-font.php:648
+#: ../parsi-font.php:649
 msgid "Send"
 msgstr ""
