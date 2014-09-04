@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parsi Font 3.8\n"
+"POT-Creation-Date: 2014-04-28 20:45+0330\n"
+"PO-Revision-Date: 2014-04-28 21:32+0330\n"
+"Last-Translator: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
+"Language-Team: Ghaem Omidi (WP-Parsi) <ghaemomidi@yahoo.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: parsi-font.php:475 parsi-font.php:692
+msgid "Parsi Font"
+msgstr "پارسی فونت"
+
+#: parsi-font.php:495
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شدند."
+
+#: parsi-font.php:505
+msgid "Font Size (px)"
+msgstr "اندازه فونت (پیکسل)"
+
+#: parsi-font.php:509
+msgid "Select Font Size"
+msgstr "- - - اندازه فونت را انتخاب کنید - - -"
+
+#: parsi-font.php:531
+msgid "Font Family"
+msgstr "فونت ها"
+
+#: parsi-font.php:536
+msgid "Select font from list or type a font name below"
+msgstr "فونت خود را از لیست زیر انتخاب نمایید"
+
+#: parsi-font.php:558
+msgid "You can also type a font name here"
+msgstr "نام فونت مورد نظر خود را اینجا وارد نمایید."
+
+#: parsi-font.php:566
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: parsi-font.php:570
+msgid "This text is just to test."
+msgstr ".این متن فقط برای آزمایش است"
+
+#: parsi-font.php:579
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: parsi-font.php:586
+msgid "Plugin Features"
+msgstr "ویژگی های افزونه"
+
+#: parsi-font.php:589
+msgid "Beautiful dashboard by changing the font"
+msgstr "زیبا کردن پیشخوان وردپرس با تغییر فونت"
+
+#: parsi-font.php:590
+msgid "Change font Wordpress dashboard"
+msgstr "تغییر فونت پیشخوان وردپرس"
+
+#: parsi-font.php:591
+msgid "Select a font from the list of available fonts"
+msgstr "انتخاب فونت از لیست فونت های موجود"
+
+#: parsi-font.php:592
+msgid "The user can write the name of the own favorite font."
+msgstr "کاربر می تواند نام فونت دلخواه خود را بنویسد."
+
+#: parsi-font.php:593
+msgid "This plugin is developed by Ghaem Omidi."
+msgstr "این افزونه توسط قائم امیدی توسعه داده می شود."
+
+#: parsi-font.php:595
+msgid "Dedicated to the all users of WP-Parsi and Mandegarweb."
+msgstr "تقدیم به تمامی کاربران وردپرس پارسی و ماندگار وب"
+
+#: parsi-font.php:603
+msgid "Your message was successfully sent. Thanks"
+msgstr "پیام شما با موفقیت ارسال شد. باتشکر"
+
+#: parsi-font.php:619
+msgid "Please fill all fields."
+msgstr "لطفا همه زمینه ها را پر کنید."
+
+#: parsi-font.php:626
+msgid ""
+"If you want your favorite font to be used in plugin or you have comments or "
+"suggestions please let us know via this form:"
+msgstr ""
+"اگر می خواهید فونت مورد علاقه تان در افزونه قرار گیرد یا پیشنهاد و انتقادی "
+"دارید از طریق این فرم به ما اطلاع دهید:"
+
+#: parsi-font.php:632
+msgid "Name"
+msgstr "نام"
+
+#: parsi-font.php:636
+msgid "Email"
+msgstr "پست الکترونیکی"
+
+#: parsi-font.php:640
+msgid "Subject"
+msgstr "موضوع"
+
+#: parsi-font.php:644
+msgid "Your Message"
+msgstr "پیام شما"
+
+#: parsi-font.php:648
+msgid "Send"
+msgstr "ارسال"
