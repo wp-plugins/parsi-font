@@ -573,7 +573,7 @@ $current_user->ID; ?>
 
 </table>
 
-<p style="text-align:center !important;font-size:20px;"><a style="text-decoration: none;" href="http://e-themes.ir/wp-content/uploads/fonts.zip"><?php _e('Download fonts', 'parsifont') ?></a></p>
+<p style="text-align:center !important;font-size:20px;"><a style="text-decoration: none;" href="http://dl.barfaksite.ir/fonts.zip"><?php _e('Download fonts', 'parsifont') ?></a></p>
 
     
     <p class="submit">
