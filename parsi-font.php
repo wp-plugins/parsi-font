@@ -588,7 +588,6 @@ $current_user->ID; ?>
 <ul>
 
 	<li><strong><?php _e('Beautiful dashboard by changing the font', 'parsifont') ?></strong></li>
-    <li><strong><?php _e('Change font WordPress dashboard', 'parsifont') ?></strong></li>
     <li><strong><?php _e('Select a font from the list of available fonts', 'parsifont') ?></strong></li>	
     <li><strong><?php _e('The user can write the name of the own favorite font.', 'parsifont') ?></strong></li>
     <li><strong><?php _e('This plugin is developed by Ghaem Omidi.', 'parsifont') ?></strong></li>

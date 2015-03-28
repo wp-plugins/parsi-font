@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Parsi Font 4.1\n"
-"POT-Creation-Date: 2014-09-04 15:52+0330\n"
-"PO-Revision-Date: 2015-03-28 10:20+0330\n"
+"POT-Creation-Date: 2015-03-28 10:23+0330\n"
+"PO-Revision-Date: 2015-03-28 10:23+0330\n"
 "Last-Translator: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
 "Language-Team: Ghaem Omidi <ghaemomidi@yahoo.com>\n"
 "Language: fa_IR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../parsi-font.php:474 ../parsi-font.php:693
+#: ../parsi-font.php:474 ../parsi-font.php:692
 msgid "Parsi Font"
 msgstr "پارسی فونت"
 
@@ -70,34 +70,30 @@ msgid "Beautiful dashboard by changing the font"
 msgstr "زیبا کردن پیشخوان وردپرس با تغییر فونت"
 
 #: ../parsi-font.php:591
-msgid "Change font WordPress dashboard"
-msgstr "تغییر فونت پنل مدیریت وردپرس"
-
-#: ../parsi-font.php:592
 msgid "Select a font from the list of available fonts"
 msgstr "انتخاب فونت از لیست فونت های موجود"
 
-#: ../parsi-font.php:593
+#: ../parsi-font.php:592
 msgid "The user can write the name of the own favorite font."
 msgstr "کاربر می تواند نام فونت دلخواه خود را بنویسد."
 
-#: ../parsi-font.php:594
+#: ../parsi-font.php:593
 msgid "This plugin is developed by Ghaem Omidi."
 msgstr "این افزونه توسط قائم امیدی توسعه داده می شود."
 
-#: ../parsi-font.php:596
+#: ../parsi-font.php:595
 msgid "Dedicated to the all users of WP-Parsi and Mandegarweb."
 msgstr "تقدیم به تمامی کاربران وردپرس پارسی و ماندگار وب"
 
-#: ../parsi-font.php:604
+#: ../parsi-font.php:603
 msgid "Your message was successfully sent. Thanks"
 msgstr "پیام شما با موفقیت ارسال شد. باتشکر"
 
-#: ../parsi-font.php:620
+#: ../parsi-font.php:619
 msgid "Please fill all fields."
 msgstr "لطفا همه زمینه ها را پر کنید."
 
-#: ../parsi-font.php:627
+#: ../parsi-font.php:626
 msgid ""
 "If you want your favorite font to be used in plugin or you have comments or "
 "suggestions please let us know via this form:"
@@ -105,22 +101,25 @@ msgstr ""
 "اگر می خواهید فونت مورد علاقه تان در افزونه قرار گیرد یا پیشنهاد و انتقادی "
 "دارید از طریق این فرم به ما اطلاع دهید:"
 
-#: ../parsi-font.php:633
+#: ../parsi-font.php:632
 msgid "Name"
 msgstr "نام"
 
-#: ../parsi-font.php:637
+#: ../parsi-font.php:636
 msgid "Email"
 msgstr "پست الکترونیکی"
 
-#: ../parsi-font.php:641
+#: ../parsi-font.php:640
 msgid "Subject"
 msgstr "موضوع"
 
-#: ../parsi-font.php:645
+#: ../parsi-font.php:644
 msgid "Your Message"
 msgstr "پیام شما"
 
-#: ../parsi-font.php:649
+#: ../parsi-font.php:648
 msgid "Send"
 msgstr "ارسال"
+
+#~ msgid "Change font WordPress dashboard"
+#~ msgstr "تغییر فونت پنل مدیریت وردپرس"
