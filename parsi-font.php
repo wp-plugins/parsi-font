@@ -2,11 +2,11 @@
 /*
 Plugin Name: WP-Parsi Admin Font Editor
 Plugin URI: http://forum.wp-parsi.com/
-Description: Change WordPress admin font
+Description: Change WordPress dashboard font
 Author: Ghaem
-Version: 4.0
+Version: 4.1
 Tags: admin, admin font, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
-Author URI: http://barfaksite.ir/
+Author URI: http://wp-parsi.com
 Copyright: Ghaem Omidi - 2014
 License: GPL
 
@@ -539,7 +539,7 @@ $current_user->ID; ?>
 			$parsifont_font_family = get_user_meta($current_user->ID, 'parsifont-font-family', true);
 			$parsifont_font_family_user = get_user_meta($current_user->ID, 'parsifont-font-family-user', true); 
 			
-			$parsifont_fonts = array('Sultan Koufi', 'IranNastaliq', 'IRYekan', 'B Nazanin', 'BBCNassim', 'B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans MS', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS', 'B Nazanin, Comic Sans MS', 'BBCNassim, Comic Sans MS', 'IRYekan, Comic Sans MS', 'IranNastaliq, Comic Sans MS', 'Sultan Koufi, Comic Sans MS');
+			$parsifont_fonts = array('Arial', 'Verdana', 'Sultan K Bold', 'Sultan Adan', 'Sultan Koufi', 'IranNastaliq', 'IRYekan', 'B Nazanin', 'BBCNassim', 'B Koodak', 'B Yekan', 'B Farnaz', 'B Homa', 'B Morvarid', 'B Moj', 'B Siavash', 'B Sina', 'B Titr', 'B Traffic', 'Comic Sans MS', 'B Koodak, Comic Sans MS', 'B Yekan, Comic Sans MS', 'B Farnaz, Comic Sans MS', 'B Homa, Comic Sans MS', 'B Morvarid, Comic Sans MS', 'B Moj, Comic Sans MS', 'B Siavash, Comic Sans MS', 'B Sina, Comic Sans MS', 'B Titr, Comic Sans MS', 'B Traffic, Comic Sans MS', 'B Nazanin, Comic Sans MS', 'BBCNassim, Comic Sans MS', 'IRYekan, Comic Sans MS', 'IranNastaliq, Comic Sans MS', 'Sultan Koufi, Comic Sans MS', 'Sultan Adan, Comic Sans MS', 'Sultan K Bold, Comic Sans MS');
 			
 			for($i=0; $i<count($parsifont_fonts); $i++) { 
 				if($parsifont_fonts[$i] !== $parsifont_font_family) { ?>

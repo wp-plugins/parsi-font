@@ -2,16 +2,16 @@
 Contributors: Ghaem
 Tags: admin, admin font, font, wordpress font, change font, parsi font, fonts, persian, persian fonts, persian font, admin font editor, wp-parsi admin font editor
 Requires at least: 3.7
-Stable tag: 4.0
-Tested up to: 4.0
+Stable tag: 4.1
+Tested up to: 4.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Change WordPress admin font
+Change WordPress dashboard font
 
 == Description ==
 
-Change WordPress admin font
+Change WordPress dashboard font
 
 = List of some features: =
 * Settings Page
@@ -58,3 +58,5 @@ A. To use this plugin you should only install plugin, select your custom font in
 = 4.0 =
 * Add new fonts
 * Add font pack (.zip) for download
+= 4.1 =
+* Add new fonts
