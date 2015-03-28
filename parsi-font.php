@@ -565,7 +565,7 @@ $current_user->ID; ?>
         <th scope="row" ><?php _e('Preview', 'parsifont'); ?></th>
         <td>
 	 
-	<textarea name="parsifont-preview" style="text-align:center;font-size:<?php echo $parsifont_font_size; ?>px; font-family:<?php echo $parsifont_font_family; ?>; width:400px;height:90px;color:#000;" id="parsifont-preview" class="large-text code" disabled="disabled" spellcheck="false">This text is just to test.
+	<textarea name="parsifont-preview" style="text-align:center;font-size:<?php echo $parsifont_font_size; ?>px; font-family:<?php echo $parsifont_font_family; ?>; width:400px;height:90px;color:#000;" id="parsifont-preview" class="large-text code" disabled="disabled" spellcheck="false">این متن فقط برای آزمایش است.
 	<?php _e('This text is just to test.', 'parsifont') ?></textarea>
 	
 		</td>
